@@ -1,0 +1,12 @@
+
+/* TEAM */
+  Developers: Starter Theme
+  Websites: https://junocollege.com/
+
+/* SITE */
+  Standards: HTML5, CSS3
+  Components: jQuery, Javscript
+  Software: WordPress
+
+/* Theme screenshot */
+Photo by Anas Alshanti on Unsplash
