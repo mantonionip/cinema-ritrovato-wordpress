@@ -1,17 +1,5 @@
 jQuery(function(){
 
-   const $serviceDescriptions = $('.service-description');
-   const responsiveServiceSection = function () {
-      let largestHeight = 0;
-      $serviceDescriptions.each(function (i, service) {
-         if (service.offsetHeight > largestHeight) {
-            largestHeight = service.offsetHeight;
-         }
-      });
-      $(".service-container").css("padding-bottom", `${largestHeight}px`);
-   }
-   responsiveServiceSection();
-
 	if($(window).width() > 980 ){
 	     $(".menu-item-has-children > a").on("focus",function() {
 	     	$(".active").removeClass("active");
@@ -32,8 +20,6 @@ jQuery(function(){
   var dwidth = $(window).width();
 
   $(window).on('resize', function() {
-
-   responsiveServiceSection();
 
    if($(window).width() > 1200) {
       $(".menu ul").css('display', 'flex');
