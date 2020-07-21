@@ -2,7 +2,7 @@
 
 [Live Demo](https://samdev.codes/cinemaritrovato/)
 
-![](assets/images/screen-shot.png)
+![](image/screen-shot.png)
 
 ## Description:
 A semi-fictional website for my most favorite film festival in the world. A fully responsive multi-page website built with a custom WordPress theme from scratch. Check out the blog, flip through employees, and try out the contact form.
